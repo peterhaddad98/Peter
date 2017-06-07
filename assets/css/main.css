@@ -1690,7 +1690,7 @@ I modified the design substantially to my own purposes.
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		text-decoration: none;
 	}
 
@@ -4193,7 +4193,7 @@ I modified the design substantially to my own purposes.
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		/*color: rgba(255, 255, 255, 0.25);*/
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -4244,7 +4244,7 @@ I modified the design substantially to my own purposes.
 		}
 
 		#copyright a {
-			color: inherit;
+			/*color: inherit;*/
 			border-bottom-color: inherit;
 		}
 
