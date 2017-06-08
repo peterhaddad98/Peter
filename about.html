@@ -41,7 +41,26 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
+									<span class="date">
+									<script>
+										/*Date.prototype.getMonthName = function()
+										{
+    										var monthNames = [ "January", "February", "March", "April", "May", "June", 
+    										                   "July", "August", "September", "October", "November", "December" ];
+    										return monthNames[this.getMonth()];
+										}
+										*/
+										Date.prototype.getFormatDate = function()
+										{
+    										var monthNames = [ "January", "February", "March", "April", "May", "June", 
+    										                   "July", "August", "September", "October", "November", "December" ];
+    										return monthNames[this.getMonth()] + ' ' + this.getDate() + ', ' + this.getFullYear();
+										}
+
+										//document.write(new Date().getMonthName());
+										document.write(new Date().getFormatDate());
+									</script>
+									</span>
 									<h2><a>My Favorite<br />
 									Project</a></h2>
 									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
