@@ -54,12 +54,32 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date"><script> document.write(new Date().toDateString());</script></span>
+									<span class="date">
+									<script>
+										/*Date.prototype.getMonthName = function()
+										{
+    										var monthNames = [ "January", "February", "March", "April", "May", "June", 
+    										                   "July", "August", "September", "October", "November", "December" ];
+    										return monthNames[this.getMonth()];
+										}
+										*/
+										Date.prototype.getFormatDate = function()
+										{
+    										var monthNames = [ "January", "February", "March", "April", "May", "June", 
+    										                   "July", "August", "September", "October", "November", "December" ];
+    										return monthNames[this.getMonth()] + ' ' + this.getDate() + ', ' + this.getFullYear();
+										}
+
+										//document.write(new Date().getMonthName());
+										document.write(new Date().getFormatDate());
+									</script>
+									</span>
+									
 									<h2><a>My Favorite<br />
 									Project</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<p>Created a fully functioning smart touchscreen mirror based on Apple’s iOS 10.<br /><br />
+									Design includes the time and date in the upper right hand corner and weather in the top left. All apps can be moved around and placed anywhere on the mirror. After 45 seconds of inactivity the mirror goes to sleep (appears as any ordinary mirror), simply tap anywhere to wake back up and resume use. Some useful things you can do with this mirror: Request an Uber, watch Netflix, read the news, control smart thermostat / light bulbs, control Sonos speaker system and more.
+									</p>
 								</header>
 								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								<ul class="actions">
