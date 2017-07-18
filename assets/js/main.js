@@ -76,6 +76,9 @@
 			// Disable parallax on ..
 				if (skel.vars.browser == 'ie'		// IE
 				||	skel.vars.browser == 'edge'		// Edge
+				||	skel.vars.browser == 'chrome'	// Chrome
+				||	skel.vars.browser == 'firefox'	// Firefox
+				||	skel.vars.browser == 'opera'	// Opera
 				||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
 				||	skel.vars.mobile)				// Mobile devices
 					off();
