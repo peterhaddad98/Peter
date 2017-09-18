@@ -5,7 +5,7 @@
 COPYRIGHT NOTICE
 =======================================================
 The website design is based on MASSIVELY designed by
-AJ of www.html5up.net, which has been
+AJ from www.html5up.net, which has been
 released under the Creative Commons 3.0 license.
 =======================================================
 I modified the design substantially to my own purposes.
@@ -3259,7 +3259,7 @@ I modified the design substantially to my own purposes.
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				min-height: 30vh;
 			}
 
 				#intro p br {
@@ -3276,7 +3276,7 @@ I modified the design substantially to my own purposes.
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 30vh;
 			}
 
 				#intro h1 {
